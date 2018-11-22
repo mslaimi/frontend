@@ -2,16 +2,22 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.feeleurope.formation</groupId>
+	<groupId>com.sodifrance.formation</groupId>
 	<artifactId>frontend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>Mediatheque</name>
+	<properties>
+ <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.feeleurope.formation</groupId>
+			<groupId>com.sodifrance.formation</groupId>
 			<artifactId>backend</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -38,4 +44,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
